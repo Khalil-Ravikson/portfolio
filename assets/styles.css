@@ -66,9 +66,9 @@ section{padding:92px 0;position:relative;}
 
 /* Hero right: photo + code card */
 .hero-visual{position:relative;display:flex;justify-content:center;align-items:center;min-height:380px;}
-.photo-orb{position:relative;width:290px;height:290px;border-radius:50%;background:radial-gradient(circle at 30% 25%,rgba(167,139,250,.5),rgba(124,58,237,.15) 60%,transparent 72%);display:flex;align-items:center;justify-content:center;}
-.photo-orb::after{content:"";position:absolute;inset:26px;border-radius:50%;background:conic-gradient(from 200deg,var(--violet),transparent 55%,var(--violet-2));filter:blur(24px);opacity:.55;z-index:0;}
-.photo-orb img{position:relative;z-index:1;width:216px;height:216px;border-radius:50%;object-fit:cover;object-position:center 18%;border:3px solid rgba(167,139,250,.55);box-shadow:0 20px 50px -16px rgba(0,0,0,.7);}
+.photo-orb{position:relative;width:340px;height:340px;border-radius:50%;background:radial-gradient(circle at 30% 25%,rgba(167,139,250,.35),rgba(124,58,237,.1) 60%,transparent 72%);display:flex;align-items:center;justify-content:center;}
+.photo-orb::after{content:"";position:absolute;inset:22px;border-radius:50%;background:conic-gradient(from 200deg,var(--violet),transparent 55%,var(--violet-2));filter:blur(20px);opacity:.35;z-index:0;}
+.photo-orb img{position:relative;z-index:1;width:300px;height:300px;border-radius:50%;object-fit:cover;object-position:center 22%;border:3px solid rgba(167,139,250,.55);box-shadow:0 20px 50px -16px rgba(0,0,0,.7);}
 .code-card{position:absolute;right:-6px;bottom:6px;z-index:2;width:250px;background:#0c0c17;border:1px solid var(--border-2);border-radius:13px;box-shadow:var(--shadow);overflow:hidden;font-family:'Courier New',ui-monospace,monospace;}
 .code-bar{display:flex;align-items:center;gap:6px;padding:9px 12px;background:#111120;border-bottom:1px solid var(--border);}
 .code-bar i{width:10px;height:10px;border-radius:50%;display:inline-block;}
@@ -174,8 +174,8 @@ section{padding:92px 0;position:relative;}
   .proj-grid{grid-template-columns:1fr;}
   .skills-grid{grid-template-columns:1fr;}
   .stats{grid-template-columns:1fr 1fr;}
-  .photo-orb{width:250px;height:250px;}
-  .photo-orb img{width:186px;height:186px;}
+  .photo-orb{width:260px;height:260px;}
+  .photo-orb img{width:220px;height:220px;}
   .code-card{width:210px;right:-8px;}
   .floaty.f2{right:-6px;}
 }
